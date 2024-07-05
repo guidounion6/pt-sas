@@ -1,0 +1,58 @@
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .cl-avatarImageActionsUpload {
+    color: white
+  }
+  .cl-menuButton{
+    color:white
+  }
+
+  .cl-menuItem{
+    color: white
+  }
+
+.cl-navbarButton{
+  color: white;
+}
+.cl-badge{
+  color: white;
+}
+  .cl-userButtonPopoverActionButtonIcon {
+    color: white;
+  }
+  
+  .cl-logoBox {
+    height: 40px;
+  }
+  .cl-dividerLine {
+    background: white;
+    height: 2px;
+  }
+  
+  .cl-socialButtonsIconButton {
+    border: 3px solid #565761;
+    background-color: #F5F5F5 ;
+  }
+  .cl-socialButtonsIconButton:hover {
+    background-color: #cbc7c7 ;
+  }
+  
+  .cl-internal-wkkub3 {
+    color: white;
+  }
+  .cl-userButtonPopoverActionButton {
+    color: white;
+  }
+  
+  .cl-userButtonPopoverActionButton:hover {
+    color: #73B4C9;
+  }

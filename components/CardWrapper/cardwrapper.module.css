@@ -1,0 +1,22 @@
+.card{
+    width: 70vh;
+    height: 60%;
+    border: solid 2px #111011
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 60vh;
+    }
+}
+@media (max-width: 425px) {
+    .card {
+        width: 40vh;
+    }
+}
+@media (max-width: 320px) {
+    .card {
+        width: 30vh;
+    }
+}

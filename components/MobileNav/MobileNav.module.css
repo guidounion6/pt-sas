@@ -1,0 +1,75 @@
+.section1 {
+    width: 100%;
+    max-width: 264px;
+}
+
+.image1 {
+    cursor: pointer;
+}
+
+@media (min-width: 640px) {
+    .image1 {
+        display: none;
+    }
+}
+
+.sheetcontent {
+    border-style: none;
+    background-color: #73B4C9;
+}
+
+.link1 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+@media (min-width: 640px) {
+    .image2 {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.p1{
+    font-size: 26px;
+    font-weight: 800;
+    color: #111011
+}
+
+.div1 {
+    display: flex; 
+    height: calc(100vh- 72px);
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.section2 {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 24px; 
+    padding-top: 64px;
+    color: #111011;
+}
+
+.link2 {
+    display: flex; 
+    gap: 16px; 
+    align-items: center;
+    padding: 16px;
+    border-radius: 8px; 
+    width: 100%;
+    max-width: 240px;
+}
+
+.active {
+    color: #F5F5F5
+}
+
+.p2 {
+    font-weight: 600;
+}
+
